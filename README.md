@@ -22,7 +22,7 @@ Open [hardware/astracompanion/](hardware/astracompanion/). Grant parts list: [ha
 
 ## Audio module and neck (mechanical)
 
-**$27.94** in parts before tax and shipping. Unit price is per piece. The totals are the pack prices Amazon charges. Details: [hardware/BOM_AUDIO_MODULE.md](hardware/BOM_AUDIO_MODULE.md). CSV for grants: [hardware/bom-audio-module.csv](hardware/bom-audio-module.csv).
+**$27.94** in parts before tax and shipping. Unit price is per piece. The totals are the pack prices Amazon charges. Details: [hardware/BOM_AUDIO_MODULE.md](hardware/BOM_AUDIO_MODULE.md). CSV for grants: [hardware/bom-audio-module.csv](hardware/bom-audio-module.csv). The torso and audio backpack model is [cad/robot-torso-audio-backpack.step](cad/robot-torso-audio-backpack.step).
 
 | Part | Qty | Unit | Total | Where |
 |------|-----|------|-------|-------|
@@ -72,6 +72,7 @@ hardware/astracompanion/   KiCad schematic and PCB
 hardware/bom.csv           PCB grant import
 hardware/bom-audio-module.csv   Neck and speaker box grant import
 hardware/BOM_AUDIO_MODULE.md    Mechanical BOM and CAD captions
+cad/robot-torso-audio-backpack.step   Torso and audio backpack STEP export
 docs/images/               PCB renders and audio module CAD shots
 docs/                      Audio and voice design notes
 ```

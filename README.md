@@ -4,7 +4,7 @@ This repo is the **audio and noise week** slice of [Astra Companion](https://git
 
 The full plastic chassis is in [Astra-Companion-Cad](https://github.com/atireksd11/Astra-Companion-Cad). The laptop voice bridge and server live in the main repo.
 
-Mic and speaker electronics on the board: **INMP441** and **MAX98357A** on the ESP32-S3 carrier. The mechanical module adds a side speaker panel, **608-ZZ** neck bearings, **MG90S** head pan, and a **brass tube** so wires run through the pivot safely.
+Mic and speaker electronics on the board: **INMP441** and **MAX98357A** on the ESP32-S3 carrier. The mechanical module adds a side speaker panel, **608-ZZ** neck bearings, and **MG90S** head pan.
 
 **PCB status:** layout is in the repo but **not fab ready yet**. Do not order boards until routing and DRC are clean.
 
@@ -22,13 +22,12 @@ Open [hardware/astracompanion/](hardware/astracompanion/). Grant parts list: [ha
 
 ## Audio module and neck (mechanical)
 
-About **$30** in parts before tax and shipping. Details: [hardware/BOM_AUDIO_MODULE.md](hardware/BOM_AUDIO_MODULE.md). CSV for grants: [hardware/bom-audio-module.csv](hardware/bom-audio-module.csv).
+**$27.94** in parts before tax and shipping. Unit price is per piece. The totals are the pack prices Amazon charges. Details: [hardware/BOM_AUDIO_MODULE.md](hardware/BOM_AUDIO_MODULE.md). CSV for grants: [hardware/bom-audio-module.csv](hardware/bom-audio-module.csv).
 
 | Part | Qty | Unit | Total | Where |
 |------|-----|------|-------|-------|
-| PGN 608-ZZ ball bearings, 10 pack (8 by 22 by 7 mm) | 1 pack | $12.95 | $12.95 | Amazon.ca |
-| MG90S metal gear micro servo, 2 pack | 1 pack | $14.99 | $14.99 | Amazon.ca |
-| 8 mm OD, 5 mm ID brass tube (hollow neck shaft) | 1 | $2.06 | $2.06 | Amazon or hardware store |
+| [PGN 608-ZZ ball bearings, 10 pack](https://www.amazon.ca/gp/product/B07XLV1W2M/ref=ox_sc_act_title_2?smid=A3RMJZMAP3U4RK&psc=1) (8 by 22 by 7 mm) | 10 | $1.30 | $12.95 | Amazon.ca |
+| [MG90S metal gear micro servo, 2 pack](https://www.amazon.ca/gp/product/B0BHYHKF2P/ref=ox_sc_act_title_1?smid=A1AEYBYG92X8UY&psc=1) | 2 | $7.50 | $14.99 | Amazon.ca |
 | Tax and shipping | | | about $5 | Prime / domestic |
 
 ![Audio module exploded](docs/images/audio-module-exploded.png)

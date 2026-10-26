@@ -50,6 +50,22 @@ About **$30** in parts before tax and shipping. Details: [hardware/BOM_AUDIO_MOD
 | [docs/FEATURE3_DOA.md](docs/FEATURE3_DOA.md) | Direction of arrival (stereo mic path) |
 | [docs/PINOUT.md](docs/PINOUT.md) | ESP32 GPIO map including I2S audio |
 
+## Firmware
+
+PlatformIO project in [firmware/](firmware/) (Arduino ESP32, C++). It covers balance, eyes, I2S mic and speaker, the voice listener, and Wi-Fi to the laptop bridge. There is no single `.ino` sketch. `src/main.cpp` is the entry point.
+
+Build and flash from the `firmware` folder with PlatformIO:
+
+```bash
+pio run
+pio run -t upload
+pio device monitor
+```
+
+Copy `firmware/include/secrets.h.example` to `secrets.h` and put your Wi-Fi and bridge token there. `secrets.h` is gitignored so passwords stay off GitHub.
+
+More detail: [firmware/README.md](firmware/README.md).
+
 ## Folder layout
 
 ```text
